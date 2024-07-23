@@ -1,0 +1,15 @@
+{
+  "Value": {
+    "WebDataCapturing.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "def1723d-4a44-4681-af28-82c9818aa7b7",
+        "ActivityIdRef": "NTypeInto_9",
+        "ActivityId": "1.15",
+        "ActivityName": "Entering Personal Email",
+        "IsTransient": false
+      }
+    ]
+  }
+}

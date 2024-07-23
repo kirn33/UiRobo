@@ -1,0 +1,74 @@
+{
+  "name": "Robot 2_DataCapturing",
+  "projectId": "7d8ddf0f-e790-4ade-a28f-1261828e4460",
+  "description": "Capturs the data in excel enter in desktop application",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.0-preview]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.System.Activities": "[23.12.0-preview]",
+    "UiPath.Testing.Activities": "[23.12.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.12.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.12.0.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "481f55e2-ee77-45d8-bae5-c3cc1ea45cb6",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "WebDataCapturing.xaml",
+      "uniqueId": "a8c58888-2e4c-4ce5-9073-6b7509a8a209",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "DesktopDataCapturing.xaml",
+      "uniqueId": "8b863506-ea3f-4bac-9efc-54fe6a144c2d",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
